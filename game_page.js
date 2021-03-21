@@ -1,7 +1,8 @@
 player1 = localStorage.getItem("Player #1");
 player2 = localStorage.getItem("Player #2");
 
-player1Score, player2Score = 0;
+player1Score = 0;
+player2Score = 0;
 
 document.getElementById("player1_name").innerHTML = player1 + ": ";
 document.getElementById("player2_name").innerHTML = player2 + ": ";
